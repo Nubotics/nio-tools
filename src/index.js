@@ -48,6 +48,7 @@ import isFunction from 'lodash.isfunction'
 import isInteger from 'lodash.isinteger'
 import isNumber from 'lodash.isnumber'
 import isPlainObject from 'lodash.isplainobject'
+import trim from 'lodash.trim'
 
 const eachKey = function (object, cb) {
   forEach(Object.keys(object), (key, i) => {
@@ -257,7 +258,7 @@ const getRandomInt = function (min, max) {
 const smoosh = merge
 
 //-> export
-export default {
+module.exports = {
   //-> objects / collections
   merge,
   smoosh,
@@ -298,7 +299,7 @@ export default {
   isNumber,
   isPlainObject,
   getRandomInt,
-
+  trim,
   //-> is -> thing -> type
   is,
 
