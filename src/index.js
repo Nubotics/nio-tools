@@ -84,8 +84,12 @@ const makeObjectFromKeyCollection = function (collection, omitPrefix) {
   forEach(collection, (item) => {
     //console.log('make from collection:', item)
     if (has(item, 'key') && has(item, 'value')) {
-      if (!startsWith(item.key), omitPrefix) {
+      if (omitPrefix){
+          if (!startsWith(item.key), omitPrefix) {
         result = merge(result, {[item.key]: item.value})
+        }
+      }else{
+       result = merge(result, {[item.key]: item.value})
       }
     }
   })
