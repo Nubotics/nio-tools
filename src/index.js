@@ -2,10 +2,10 @@ import DeepMerge from 'deep-merge'
 import insertAt from 'array-insertat'
 let isNode = require('detect-node')
 let isWeb = !isNode
-const env = require('get-env')({
+/*const env = require('get-env')({
   development: ['development', 'dev', 'local'],
   production: ['production', 'prod', 'live', 'staging']
-})
+})*/
 
 const merge = DeepMerge(function (target, source, key) {
   if (target instanceof Array) {
@@ -328,5 +328,5 @@ module.exports = {
   //-> context
   isNode,
   isWeb,
-  env,
+  //env,
 }
