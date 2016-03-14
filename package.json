@@ -1,6 +1,6 @@
 {
   "name": "nio-tools",
-  "version": "0.1.1",
+  "version": "0.2.2",
   "description": "A collection of frequently needed js language tools, based on lodash modules",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,6 @@
     "array-insertat": "^1.0.0",
     "deep-merge": "^1.0.0",
     "detect-node": "^2.0.3",
-    "get-env": "^0.4.0",
     "lodash.camelcase": "^4.1.0",
     "lodash.clone": "^4.3.0",
     "lodash.endswith": "^4.0.0",
