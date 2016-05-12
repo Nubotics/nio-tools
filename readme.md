@@ -90,7 +90,7 @@ Available type arguments:
  
  - **insertAt(** **destination**: array, **item**: array-item, **index**: int **)** -> array
  
- - **eachKey(** **object**, **cb**: function( key: string, index: int **)** )
+ - **eachKey(** **object**, **cb**: function( **key**: string, **index**: int **)** )
  
  - **makeKey(** **value**: string **)** -> snake case sluggified string
  
