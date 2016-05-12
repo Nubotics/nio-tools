@@ -6,6 +6,13 @@ nio tools exports an object of all the methods (and some props) we wish were nat
 
 Many of these methods are modules I've painstakingly chosen from lodash 4 modules.
 
+```
+npm i --save nio-tools
+```
+
+nio tools is universal, IOW safe for both server and browser use
+
+
 **Lodash modules included** 
 
  - forEach
