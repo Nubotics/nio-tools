@@ -14,7 +14,8 @@ Serving suggestion
 
 ```javascript
 
-import { is, has, merge, forEach, map, find, filter, includes, ...tools } from 'nio-tools'
+import tools from 'nio-tools'
+const { is, has, merge, forEach, map, find, filter, includes, } = tools
 
 ```
 
