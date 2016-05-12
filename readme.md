@@ -9,71 +9,40 @@ Many of these methods are modules I've painstakingly chosen from lodash 4 module
 **Lodash modules included** 
 
  - forEach
- 
  - clone
- 
  - map
- 
  - has
- 
  - values
- 
  - includes
- 
  - startsWith
- 
  - endsWith
- 
  - find
- 
  - filter
- 
  - findIndex
- 
  - findLastIndex
- 
  - pluck
- 
  - uniq
- 
  - omit
- 
  - first
- 
  - last
- 
  - min
- 
  - max
- 
  - groupBy
- 
  - orderBy -> sortByOrder
- 
  - sortBy
- 
  - camelCase
- 
  - snakeCase
- 
  - trim
  
- **Type checking** 
+**Type checking** 
 
  - isArguments
- 
  - isArray
- 
  - isDate
- 
  - isEmpty
- 
  - isFunction
- 
  - isInteger
- 
  - isNumber
- 
  - isPlainObject
 
 
@@ -84,25 +53,15 @@ is, is a convenience method for sanity sake.
 Available type arguments:
 
  - collection -> array || plain object
- 
  - array | arr
- 
  - arguments | args
- 
  - date
- 
  - empty | nothing
- 
  - function | func
- 
  - integer | int
- 
  - number
- 
  - object
- 
  - zero | zero-len | zero-length
- 
  - component -> React component class
 
 
@@ -133,7 +92,7 @@ Available type arguments:
  - **getFileExtension**( **filename**: string ) -> string
 
  
- **Props**
+**Props**
  
  - **isNode** -> bool
  
