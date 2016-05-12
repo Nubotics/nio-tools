@@ -10,6 +10,14 @@ Many of these methods are modules I've painstakingly chosen from lodash 4 module
 npm i --save nio-tools
 ```
 
+Serving suggestion
+
+```javascript
+
+import { is, has, merge, forEach, map, find, filter, includes, ...tools } from 'nio-tools'
+
+```
+
 nio tools is universal, IOW safe for both server and browser use
 
 
