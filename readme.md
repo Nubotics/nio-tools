@@ -82,29 +82,29 @@ Available type arguments:
 
 **Methods**
 
- - **merge**( **destination**: object|array, **override**: object|array ) -> object|array
+ - **merge(** **destination**: object|array, **override**: object|array **)** -> object|array
  
  - **smoosh** -> merge
  
  - **assign** -> merge
  
- - **insertAt**( **destination**: array, **item**: array-item, **index**: int ) -> array
+ - **insertAt(** **destination**: array, **item**: array-item, **index**: int **)** -> array
  
- - **eachKey**( **object**, **cb**: function( key: string, index: int ) )
+ - **eachKey(** **object**, **cb**: function( key: string, index: int **)** )
  
- - **makeKey**( **value**: string ) -> snake case sluggified string
+ - **makeKey(** **value**: string **)** -> snake case sluggified string
  
- - **findValue**( **collection**: array, **keys**: array | string ) -> array | object
+ - **findValue(** **collection**: array, **keys**: array | string **)** -> array | object
  
- - **makeObject**( **collection**: array ) -> object
+ - **makeObject(** **collection**: array **)** -> object
  
- - **findMetaItemByKey**( **metaCollection**: array, **key**: string ) -> object
+ - **findMetaItemByKey(** **metaCollection**: array, **key**: string **)** -> object
  
- - **findOrCreateMetaItem**(  metaCollection: array, **item**: object ) -> object
+ - **findOrCreateMetaItem(** **metaCollection**: array, **item**: object **)** -> object
  
- - **updateMetaCollection**( **original**: array, **next**: array ) -> array
+ - **updateMetaCollection(** **original**: array, **next**: array **)** -> array
  
- - **getFileExtension**( **filename**: string ) -> string
+ - **getFileExtension(** **filename**: string **)** -> string
 
  
 **Props**
